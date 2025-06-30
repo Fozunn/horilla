@@ -210,6 +210,7 @@ LANGUAGES = (
     ("ar", "عربى"),
     ("pt-br", "Português (Brasil)"),
     ("zh-hans", "Simplified Chinese"),
+    ("tr", "Turkish"),
 )
 
 LOCALE_PATHS = [
@@ -220,7 +221,7 @@ LOCALE_PATHS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "tr"
 
 TIME_ZONE = env("TIME_ZONE", default="Asia/Kolkata")
 
